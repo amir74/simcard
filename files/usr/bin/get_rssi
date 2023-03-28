@@ -1,0 +1,13 @@
+#!/bin/ash
+
+RSSI="/tmp/rssi.txt"
+
+if [ ! -f "$RSSI" ]; then
+	echo "error: /tmp/rssi.txt is not exist"
+	return -1
+fi
+
+/usr/bin/tail -1 "$RSSI"
+
+return 0
+

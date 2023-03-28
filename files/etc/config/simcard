@@ -1,0 +1,14 @@
+config general
+
+config failover
+
+config switchback
+
+config sim1
+
+config sim1_status
+
+config sim2
+
+config sim2_status
+
